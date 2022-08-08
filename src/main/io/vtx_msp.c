@@ -98,7 +98,7 @@ void setMspVtxDeviceStatusReady(const int descriptor)
     }
 }
 
-STATIC_UNIT_TESTED void prepareMspFrame(uint8_t *mspFrame)
+void prepareMspFrame(uint8_t *mspFrame)
 {
     mspFrame[0] = VTXDEV_MSP; 
     mspFrame[1] = vtxSettingsConfig()->band;
