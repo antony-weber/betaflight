@@ -105,6 +105,9 @@ typedef enum {
     DEBUG_ATTITUDE,
     DEBUG_VTX_MSP,
     DEBUG_GPS_DOP,
+    DEBUG_ANGLE_MODE,
+    DEBUG_ANGLE_TARGET,
+    DEBUG_CURRENT_ANGLE,
     DEBUG_COUNT
 } debugType_e;
 
